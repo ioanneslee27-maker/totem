@@ -52,7 +52,7 @@
 
         bav {
             bindings = <&kp BACKSPACE>;
-            key-positions = <37 31>;
+            key-positions = <15 16>;
         };
 
         japanese {
