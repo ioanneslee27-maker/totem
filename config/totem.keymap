@@ -24,7 +24,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
 };
 
 &lt {
@@ -58,6 +58,11 @@
         japanese {
             bindings = <&kp LA(LS(GRAVE))>;
             key-positions = <37 31>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <26 27>;
         };
     };
 
