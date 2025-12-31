@@ -56,7 +56,7 @@
         };
 
         japanese {
-            bindings = <&kp LA(TILDE)>;
+            bindings = <&kp LA(LS(GRAVE))>;
             key-positions = <37 31>;
         };
     };
