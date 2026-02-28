@@ -72,34 +72,44 @@
         Base {
             display-name = "Base";
             bindings = <
-                     &mt NUMBER_1 Q    &mt NUMBER_2 W      &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T    &mt NUMBER_6 Y  &mt N7 U        &mt N8 I         &mt N9 O            &mt N0 P
-                     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_GUI D  &hm LEFT_ALT F  &kp G       &kp H           &hm LEFT_ALT J  &hm LEFT_GUI K   &hm LEFT_CONTROL L  &hm LEFT_SHIFT SEMICOLON
-&mt CAPSLOCK ESCAPE  &kp Z             &kp X               &kp C           &kp V           &kp B       &mt B N         &kp M           &kp COMMA        &mt APOS DOT        &mt BACKSLASH SLASH       &mt RCTRL BACKSPACE
-                                                           &lt 2 GRAVE     &kp SPACE       &mo 1       &mo 1           &kp ENTER       &lt 2 RIGHT_ALT
+                     &kp Q             &kp W               &kp E           &kp R           &kp T    &kp Y    &kp U           &kp I            &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P
+                     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_GUI D  &hm LEFT_ALT F  &kp G    &kp H    &hm LEFT_ALT J  &hm LEFT_GUI K   &hm LEFT_CONTROL L  &hm LEFT_SHIFT SEMICOLON
+&mt CAPSLOCK ESCAPE  &kp Z             &kp X               &kp C           &kp V           &kp B    &mt B N  &kp M           &kp COMMA        &mt APOS DOT        &mt BACKSLASH SLASH       &mt RCTRL SQT
+                                                           &lt 2 GRAVE     &kp SPACE       &mo 1    &mo 1    &kp ENTER       &lt 2 RIGHT_ALT
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-        &trans  &trans    &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt KP_DIVIDE MINUS
-        &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt KP_MULTIPLY PLUS
-&trans  &trans  &trans    &trans        &trans     &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL             &trans
-                          &trans        &trans     &trans      &trans    &trans        &kp N0
+        &kp N1  &kp N2    &kp N3    &kp N4     &kp N5    &kp N6  &kp N7      &kp N8    &mt MINUS N9   &mt EQUAL N0
+        &trans  &trans    &kp UP    &trans     &trans    &trans  &kp INSERT  &kp HOME  &kp PAGE_UP    &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &kp DEL     &kp END   &kp PAGE_DOWN  &trans        &trans
+                          &trans    &trans     &trans    &trans  &trans      &trans
             >;
         };
 
         Sym {
             display-name = "Sym";
             bindings = <
-                &trans  &kp INSERT  &kp PAGE_UP    &kp DELETE  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12
-                &trans  &kt HOME    &kp PAGE_DOWN  &kp END     &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&studio_unlock  &trans  &trans      &trans         &trans      &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
-                                    &trans         &trans      &trans    &trans  &trans  &trans
+                &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp F11  &kp F12
+&studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         Fun {
+            display-name = "Fun";
+            bindings = <
+        &bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
             display-name = "Fun";
             bindings = <
         &bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
