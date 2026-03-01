@@ -57,11 +57,6 @@
             require-prior-idle-ms = <20>;
         };
 
-        japanese {
-            bindings = <&kp LA(GRAVE)>;
-            key-positions = <37 31>;
-        };
-
         b {
             bindings = <&kp B>;
             key-positions = <26 27>;
@@ -74,10 +69,10 @@
         Base {
             display-name = "Base";
             bindings = <
-                &mt GRAVE Q       &kp W               &kp E           &kp R           &kp T    &kp Y       &kp U           &kp I           &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P
-                &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_GUI D  &hm LEFT_ALT F  &kp G    &kp H       &hm LEFT_ALT J  &hm LEFT_GUI K  &hm LEFT_CONTROL L  &hm LEFT_SHIFT SEMICOLON
-&mt TAB ESCAPE  &kp Z             &kp X               &kp C           &kp V           &kp B    &mt B N     &kp M           &kp COMMA       &mt APOS DOT        &mt BSLH SLASH            &kp BACKSPACE
-                                                      &lt 3 CAPSLOCK  &lt 2 SPACE     &mo 1    &lt 1 RALT  &lt 2 ENTER     &lt 3 RCTRL
+                &mt GRAVE Q       &kp W               &kp E           &kp R           &kp T    &kp Y    &kp U           &kp I           &mt LEFT_BRACKET O  &mt RIGHT_BRACKET P
+                &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_GUI D  &hm LEFT_ALT F  &kp G    &kp H    &hm LEFT_ALT J  &hm LEFT_GUI K  &hm LEFT_CONTROL L  &hm LEFT_SHIFT SEMICOLON
+&mt TAB ESCAPE  &kp Z             &kp X               &kp C           &kp V           &kp B    &mt B N  &kp M           &kp COMMA       &mt APOS DOT        &mt BSLH SLASH            &mt RCTRL BACKSPACE
+                                                      &lt 3 CAPSLOCK  &lt 2 SPACE     &mo 1    &mo 1    &lt 2 ENTER     &lt 3 RALT
             >;
         };
 
